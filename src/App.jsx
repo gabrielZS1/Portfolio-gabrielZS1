@@ -6,6 +6,7 @@ import foto3 from './assets/portt2.PNG'
 import foto4 from './assets/portt3.PNG'
 import foto5 from './assets/portt5.PNG'
 import foto6 from './assets/portt6.PNG'
+import foto7 from './assets/portt7.PNG'
 
 function App() {
 
@@ -209,13 +210,41 @@ function App() {
           <span class="tech-tag">TypeScript</span>
         </div>
 
-        <a href="https://github.com/gabrielZS1/pizzariadev-full-stack-delight" target="_blank" class="btn-repo">
-          Ver Repositório
+        <a href="https://pizzariadev-full-stack-delight.vercel.app/" target="_blank" class="btn-repo">
+          Ver Projeto
+        </a>
+      </div>
+    </div>
+    {/* CARD 2 */}
+
+    <div class="card-projeto">
+      <div class="projeto-imagem-container">
+        <img src={foto7} class="projeto-imagem" />
+      </div>
+
+      <div class="projeto-conteudo">
+        <h2 class="projeto-titulo">Manicure Elegance</h2>
+        <p class="projeto-descricao">
+          Site moderno para manicure, apresentando serviços, portfólio e informações da profissional.
+          agendamento é feito de forma rápida e prática pelo WhatsApp.
+        </p>
+
+        <div class="projeto-tecnologias">
+          <span class="tech-tag">HTML5</span>
+          <span class="tech-tag">CSS3</span>
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">TypeScript</span>
+        </div>
+
+        <a href="https://manicure-elegance.vercel.app/" target="_blank" class="btn-repo">
+          Ver Projeto
         </a>
       </div>
     </div>
 
-    {/* CARD 2 */}
+
+
+    {/* CARD 3 */}
     <div class="card-projeto">
       <div class="projeto-imagem-container">
         <img src={foto3} class="projeto-imagem" />
@@ -242,7 +271,7 @@ function App() {
       </div>
     </div>
 
-    {/* CARD 3 */}
+    {/* CARD 4 */}
     <div class="card-projeto">
       <div class="projeto-imagem-container">
         <img src={foto4} class="projeto-imagem" />
@@ -268,7 +297,7 @@ function App() {
       </div>
     </div>
 
-    {/* CARD 4 */}
+    {/* CARD 5 */}
     <div class="card-projeto">
       <div class="projeto-imagem-container">
         <img src={foto2} class="projeto-imagem" />
@@ -295,7 +324,7 @@ function App() {
       </div>
     </div>
 
-    {/* CARD 5 */}
+    {/* CARD 6 */}
     <div class="card-projeto">
       <div class="projeto-imagem-container">
         <img src={foto5} class="projeto-imagem" />
@@ -314,8 +343,8 @@ function App() {
           <span class="tech-tag">CSS3</span>
         </div>
 
-        <a href="https://github.com/gabrielZS1/Projeto-DevClubStory" target="_blank" class="btn-repo">
-          Ver Repositório
+        <a href="https://projeto-dev-club-story.vercel.app/" target="_blank" class="btn-repo">
+          Ver Projeto
         </a>
       </div>
     </div>
