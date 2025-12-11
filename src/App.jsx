@@ -5,6 +5,7 @@ import foto2 from './assets/portt.PNG'
 import foto3 from './assets/portt2.PNG'
 import foto4 from './assets/portt3.PNG'
 import foto5 from './assets/portt5.PNG'
+import foto6 from './assets/portt6.PNG'
 
 function App() {
 
@@ -183,112 +184,145 @@ function App() {
 
       {/* Projetos */}
 
-      <section id='projeto' class="secao-projetos">
-        <h1>Meus Projetos</h1>
+<section id='projeto' class="secao-projetos">
+  <h1>Meus Projetos</h1>
 
-        <div class="container-cards">
+  <div class="container-cards">
 
-          <div class="card-projeto">
-            <div class="projeto-imagem-container">
-              <img src={foto3} class="projeto-imagem"></img>
-            </div>
+    {/* CARD 1 */}
+    <div class="card-projeto">
+      <div class="projeto-imagem-container">
+        <img src={foto6} class="projeto-imagem" />
+      </div>
 
-            <div class="projeto-conteudo">
-              <h2 class="projeto-titulo">Projeto PetShop</h2>
-              <p class="projeto-descricao">
-                Site de pet shop responsivo, desenvolvido em C# e ASP.NET, com funcionalidades dinâmicas, interface intuitiva e foco na experiência do usuário.
-              </p>
+      <div class="projeto-conteudo">
+        <h2 class="projeto-titulo">PizzariaDEV</h2>
+        <p class="projeto-descricao">
+          Sistema completo para pizzaria, desenvolvido com foco em praticidade e agilidade.
+          Possui um sistema completo e uma interface moderna inspirada em apps de delivery.
+        </p>
 
-              <div class="projeto-tecnologias">
-                <span class="tech-tag">Aps.net</span>
-                <span class="tech-tag">C#</span>
-                <span class="tech-tag">HTML5</span>
-                <span class="tech-tag">CSS3</span>
-                <span class="tech-tag">JavaScript</span>
-              </div>
-
-              <a href="https://github.com/gabrielZS1/PetCenter" target="_blank" class="btn-repo">
-                Ver Repositório
-              </a>
-            </div>
-          </div>
-
-          <div class="card-projeto">
-            <div class="projeto-imagem-container">
-              <img src={foto4} class="projeto-imagem"></img>
-            </div>
-
-            <div class="projeto-conteudo">
-              <h2 class="projeto-titulo">E-Commerce completo de Black Friday</h2>
-              <p class="projeto-descricao">
-                Projeto de e-commerce em PHP para Black Friday, com cadastro de produtos, gerenciamento de promoções e interface intuitiva para exibição das ofertas.
-              </p>
-
-              <div class="projeto-tecnologias">
-                <span class="tech-tag">PHP</span>
-                <span class="tech-tag">MySQL</span>
-                <span class="tech-tag">HTML5</span>
-                <span class="tech-tag">CSS3</span>
-              </div>
-
-              <a href="https://github.com/gabrielZS1/BlackFriday" target="_blank" class="btn-repo">
-                Ver Repositório
-              </a>
-            </div>
-          </div>
-
-          <div class="card-projeto">
-            <div class="projeto-imagem-container">
-              <img src={foto2} class="projeto-imagem"></img>
-            </div>
-
-            <div class="projeto-conteudo">
-              <h2 class="projeto-titulo">Portfólio</h2>
-              <p class="projeto-descricao">
-                Portfólio responsivo, focado em performance, com HTML semântico e JavaScript puro para interações dinâmicas e navegação fluida.
-              </p>
-
-              <div class="projeto-tecnologias">
-                <span class="tech-tag">React</span>
-                <span class="tech-tag">HTML5</span>
-                <span class="tech-tag">CSS3</span>
-                <span class="tech-tag">JavaScript</span>
-                <span class="tech-tag">Git</span>
-              </div>
-
-              <a href="https://github.com/seu-usuario/seu-repositorio" target="_blank" class="btn-repo">
-                Ver Repositório
-              </a>
-            </div>
-          </div>
-
-          <div class="card-projeto">
-            <div class="projeto-imagem-container">
-              <img src={foto5} class="projeto-imagem"></img>
-            </div>
-
-            <div class="projeto-conteudo">
-              <h2 class="projeto-titulo">Projeto loja</h2>
-              <p class="projeto-descricao">
-               Loja online interativa desenvolvida com HTML, CSS e JavaScript, com layout moderno e navegação intuitiva para melhorar a experiência do usuário.
-              </p>
-
-              <div class="projeto-tecnologias">
-                <span class="tech-tag">JavaScript</span>
-                <span class="tech-tag">HTML5</span>
-                <span class="tech-tag">CSS3</span>
-              </div>
-
-              <a href="https://github.com/gabrielZS1/Projeto-DevClubStory" target="_blank" class="btn-repo">
-                Ver Repositório
-              </a>
-            </div>
-          </div>
-
-          
-
+        <div class="projeto-tecnologias">
+          <span class="tech-tag">HTML5</span>
+          <span class="tech-tag">CSS3</span>
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">TypeScript</span>
         </div>
-      </section>
+
+        <a href="https://github.com/gabrielZS1/pizzariadev-full-stack-delight" target="_blank" class="btn-repo">
+          Ver Repositório
+        </a>
+      </div>
+    </div>
+
+    {/* CARD 2 */}
+    <div class="card-projeto">
+      <div class="projeto-imagem-container">
+        <img src={foto3} class="projeto-imagem" />
+      </div>
+
+      <div class="projeto-conteudo">
+        <h2 class="projeto-titulo">Projeto PetShop</h2>
+        <p class="projeto-descricao">
+          Site de pet shop responsivo, desenvolvido em C# e ASP.NET, com funcionalidades dinâmicas,
+          interface intuitiva e foco na experiência do usuário.
+        </p>
+
+        <div class="projeto-tecnologias">
+          <span class="tech-tag">Aps.net</span>
+          <span class="tech-tag">C#</span>
+          <span class="tech-tag">HTML5</span>
+          <span class="tech-tag">CSS3</span>
+          <span class="tech-tag">JavaScript</span>
+        </div>
+
+        <a href="https://github.com/gabrielZS1/PetCenter" target="_blank" class="btn-repo">
+          Ver Repositório
+        </a>
+      </div>
+    </div>
+
+    {/* CARD 3 */}
+    <div class="card-projeto">
+      <div class="projeto-imagem-container">
+        <img src={foto4} class="projeto-imagem" />
+      </div>
+
+      <div class="projeto-conteudo">
+        <h2 class="projeto-titulo">E-Commerce completo de Black Friday</h2>
+        <p class="projeto-descricao">
+          Projeto de e-commerce em PHP para Black Friday, com cadastro de produtos, gerenciamento
+          de promoções e interface intuitiva para exibição das ofertas.
+        </p>
+
+        <div class="projeto-tecnologias">
+          <span class="tech-tag">PHP</span>
+          <span class="tech-tag">MySQL</span>
+          <span class="tech-tag">HTML5</span>
+          <span class="tech-tag">CSS3</span>
+        </div>
+
+        <a href="https://github.com/gabrielZS1/BlackFriday" target="_blank" class="btn-repo">
+          Ver Repositório
+        </a>
+      </div>
+    </div>
+
+    {/* CARD 4 */}
+    <div class="card-projeto">
+      <div class="projeto-imagem-container">
+        <img src={foto2} class="projeto-imagem" />
+      </div>
+
+      <div class="projeto-conteudo">
+        <h2 class="projeto-titulo">Portfólio</h2>
+        <p class="projeto-descricao">
+          Portfólio responsivo, focado em performance, com HTML semântico e JavaScript puro
+          para interações dinâmicas e navegação fluida.
+        </p>
+
+        <div class="projeto-tecnologias">
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">HTML5</span>
+          <span class="tech-tag">CSS3</span>
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">Git</span>
+        </div>
+
+        <a href="https://github.com/gabrielZS1/Portfolio-gabrielZS1" target="_blank" class="btn-repo">
+          Ver Repositório
+        </a>
+      </div>
+    </div>
+
+    {/* CARD 5 */}
+    <div class="card-projeto">
+      <div class="projeto-imagem-container">
+        <img src={foto5} class="projeto-imagem" />
+      </div>
+
+      <div class="projeto-conteudo">
+        <h2 class="projeto-titulo">Projeto loja</h2>
+        <p class="projeto-descricao">
+          Loja online interativa desenvolvida com HTML, CSS e JavaScript,
+          com layout moderno e navegação intuitiva para melhorar a experiência do usuário.
+        </p>
+
+        <div class="projeto-tecnologias">
+          <span class="tech-tag">JavaScript</span>
+          <span class="tech-tag">HTML5</span>
+          <span class="tech-tag">CSS3</span>
+        </div>
+
+        <a href="https://github.com/gabrielZS1/Projeto-DevClubStory" target="_blank" class="btn-repo">
+          Ver Repositório
+        </a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
 
 
 

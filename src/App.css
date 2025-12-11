@@ -449,10 +449,12 @@ nav {
 
 /* Container que organiza todos os cards em linha (Flexbox) */
 .container-cards {
-    display: flex;
-    flex-wrap: wrap; /* Permite que os cards quebrem para a próxima linha em telas menores */
-    gap: 30px; /* Espaço entre os cards */
-    justify-content: center; /* Centraliza os cards */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+  gap: 20px;
+  width: 100%;
+
+  margin-bottom: 25px;
 }
 
 /* Estilo para cada card de projeto */
@@ -460,10 +462,7 @@ nav {
     background-color: #2c2c42; /* Fundo do card ligeiramente mais claro */
     border-radius: 10px;
     overflow: hidden; /* Garante que a imagem se ajuste ao raio da borda */
-    max-width: 300px;
- /* Reduzido de 350px para 300px */
-    flex: 1 1 280px; /* Cresce e encolhe, mas tenta manter 300px de largura mínima */
-    
+
     /* Sombra elegante com a cor de destaque */
     box-shadow: 0 8px 25px rgba(0, 188, 212, 0.1), 0 4px 10px rgba(0, 0, 0, 0.3);
     
