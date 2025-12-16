@@ -7,6 +7,7 @@ import foto4 from './assets/portt3.PNG'
 import foto5 from './assets/portt5.PNG'
 import foto6 from './assets/portt6.PNG'
 import foto7 from './assets/portt7.PNG'
+import foto8 from './assets/portt8.PNG'
 
 function App() {
 
@@ -215,6 +216,35 @@ function App() {
         </a>
       </div>
     </div>
+    {/* CARD 2 */}
+
+        <div class="card-projeto">
+      <div class="projeto-imagem-container">
+        <img src={foto8} class="projeto-imagem" />
+      </div>
+
+      <div class="projeto-conteudo">
+        <h2 class="projeto-titulo">Barbearia</h2>
+        <p class="projeto-descricao">
+          Sistema para barbearia, desenvolvido com foco em praticidade e agilidade.
+          Possui um sistema completo de agendamento.
+        </p>
+
+        <div class="projeto-tecnologias">
+          <span class="tech-tag">HTML5</span>
+          <span class="tech-tag">CSS3</span>
+          <span class="tech-tag">React</span>
+          <span class="tech-tag">TypeScript</span>
+        </div>
+
+        <a href="https://barbearia-dev-pink.vercel.app/" target="_blank" class="btn-repo">
+          Ver Projeto
+        </a>
+      </div>
+    </div>
+
+
+
     {/* CARD 2 */}
 
     <div class="card-projeto">
