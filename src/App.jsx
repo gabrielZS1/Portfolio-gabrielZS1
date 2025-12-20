@@ -11,6 +11,12 @@ import foto8 from './assets/portt8.PNG'
 
 function App() {
 
+  const [pageLoaded, setPageLoaded] = useState(false);
+
+  useEffect(() => {
+  setPageLoaded(true);
+}, []);
+
 
   // efeito do cursor luminoso
   useEffect(() => {
@@ -41,7 +47,7 @@ function App() {
 
 
   return (
-    <>
+    <div className={`page ${pageLoaded ? "page-enter" : ""}`}>
       {/* Cursor luminoso */}
       <div className="cursor-light"></div>
 
@@ -98,7 +104,7 @@ function App() {
           <h3>Desenvolvedor focado em criar interfaces modernas, rápidas e pensadas para melhorar a experiência do usuário.</h3>
 
           <a href="https://wa.me/5511988456659" target="_blank">
-            <button>Entre em contato</button>
+            <button className='btn-topo'>Entre em contato</button>
           </a>
 
 
@@ -436,7 +442,7 @@ function App() {
 
 
 
-    </>
+    </div>
   )
 }
 
