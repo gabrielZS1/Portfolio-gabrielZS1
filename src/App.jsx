@@ -437,7 +437,7 @@ function App() {
 
       
       <footer class="footer">
-          <p>© Gabriel 2025. Criado com amor e muita dedicação.</p>
+          <p>© Gabriel 2026. Criado com amor e muita dedicação.</p>
       </footer>
 
 
