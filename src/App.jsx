@@ -79,7 +79,7 @@ function App() {
             <div className="social-icons">
               <a href='https://w.app/hr7awq'><i className='fa-brands fa-whatsapp'></i></a>
               <a href="https://github.com/gabrielZS1"><i className="fa-brands fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/gabriel-azevedo-b3a811378?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i className="fa-brands fa-linkedin"></i></a>
+              <a href="https://www.linkedin.com/in/gabriel-azevedo-51674a377/"><i className="fa-brands fa-linkedin"></i></a>
               <a href="https://www.instagram.com/ogabriel.rh?igsh=c3BsbGQzY2YxY2Zj"><i className="fa-brands fa-instagram"></i></a>
             </div>
           </div>
@@ -112,7 +112,7 @@ function App() {
             <div class="social-icons">
               <a href='https://w.app/hr7awq'><i className='fa-brands fa-whatsapp'></i></a>
               <a href="https://github.com/gabrielZS1"><i className="fa-brands fa-github"></i></a>
-              <a href="https://www.linkedin.com/in/gabriel-azevedo-b3a811378?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i className="fa-brands fa-linkedin"></i></a>
+              <a href="https://www.linkedin.com/in/gabriel-azevedo-51674a377/"><i className="fa-brands fa-linkedin"></i></a>
               <a href="https://www.instagram.com/ogabriel.rh?igsh=c3BsbGQzY2YxY2Zj"><i className="fa-brands fa-instagram"></i></a>
             </div>
           </div>
@@ -416,7 +416,7 @@ function App() {
               <div class="social-icons">
                 <a href='https://wa.me/5511988456659'><i className='fa-brands fa-whatsapp'></i></a>
                 <a href="https://github.com/gabrielZS1"><i className="fa-brands fa-github"></i></a>
-                <a href="https://www.linkedin.com/in/gabriel-azevedo-b3a811378?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"><i className="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/gabriel-azevedo-51674a377/"><i className="fa-brands fa-linkedin"></i></a>
                 <a href="https://www.instagram.com/ogabriel.rh?igsh=c3BsbGQzY2YxY2Zj"><i className="fa-brands fa-instagram"></i></a>
               </div>
             </div>
