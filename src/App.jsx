@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import './App.css'
-import foto from './assets/foto.jpg'
+import foto from './assets/perfilft.jpeg'
 import foto2 from './assets/portt.PNG'
 import foto3 from './assets/portt2.PNG'
 import foto4 from './assets/portt3.PNG'
