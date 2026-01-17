@@ -7,7 +7,7 @@ import foto4 from './assets/portt3.PNG'
 import foto5 from './assets/portt5.PNG'
 import foto6 from './assets/portt6.PNG'
 import foto7 from './assets/portt7.PNG'
-import foto8 from './assets/portt8.PNG'
+import foto8 from './assets/foto999.PNG'
 
 function App() {
 
@@ -170,7 +170,7 @@ function App() {
               <h2>JavaScript</h2>
               <h2>React</h2>
               <h2>PHP</h2>
-              <h2>C#</h2> <br />
+              <h2>C#</h2> 
               <h2>Python</h2>
               <h2>Sistema Responsivo</h2>
               <h2>Git</h2>

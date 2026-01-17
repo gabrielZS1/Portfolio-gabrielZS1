@@ -397,6 +397,7 @@ a .btn-topo {
 
 .tecnologias {
  text-align: left;
+ max-width: 40vw;
 }
 
 .tecnologias h1 {
